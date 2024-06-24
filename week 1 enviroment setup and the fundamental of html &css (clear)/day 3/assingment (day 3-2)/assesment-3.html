@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>warmups</title>
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- link logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            background:grey;
+            font-family: roboto;
+
+        }
+
+        /* container */
+        .background{
+            position: relative;
+            background: #1E1F2F;
+            height: 430px;
+            width:750px;
+            display: flex;
+            margin:0 auto;
+        }
+       
+        .background-box-1{
+            position:absolute;
+            background: transparent;
+            height:175px;
+            width:200px;
+            right:0px;
+            top:0px;
+            border-bottom: 20px solid #48596D;
+            border-left: 20px solid #48596D;
+            z-index:1
+        }
+            
+        
+        .background-box-2{
+            position:absolute;
+            background: transparent;
+            height: 235px;
+            width:200px;
+            bottom:0px;
+            right:200px;
+            border-right: 20px solid #2d2f48;
+            border-top: 20px solid #2d2f48;
+            border-left: 20px solid #2d2f48;
+        }
+
+        /* header*/
+        .logo{
+            position: absolute;
+            background: transparent;
+            height:50px;
+            width:50px;
+            top: 50px;
+            left: 40px;
+        }
+        .logo .box-1{
+            position: absolute;
+            background: white;
+            height:20px;
+            width:20px
+        }
+        .logo .box-2{
+            position:absolute;
+            background:#E82C4F;
+            height:30px;
+            width:30px;
+            bottom:0px;
+            right:0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            color:white;
+        }
+        .logo-name{
+            position:absolute;
+            background:transparent;
+            font-size: 30px;
+            color:white;
+            top:50px;
+            left:100px;
+        }
+        .content-2{
+            position: absolute;
+            background: transparent;
+            color:white;
+            font-size: 44px;
+            font-style: normal;
+            height:none;
+            width: none;
+            top:100px;
+            left: 40px;
+            width: 320px;
+            
+        }
+        .content-2 p{
+            background:transparent;
+        }
+
+        /* aside */
+        .icon{
+            position: absolute;
+            background: transparent;
+            color:white;
+            bottom:40px;
+            left:40px;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .icon i{
+            background: transparent;
+        }
+        .clock{
+            position: absolute;
+            background: transparent;
+            color:white;
+            bottom:40px;
+            left:210px;
+            font-size: 25px;
+        }
+        .clock i{
+            background: transparent;
+        }
+        .navbox{
+            position:absolute;
+            background:transparent;
+            height:255px;
+            width: 210px;
+            border: 30px solid white;
+            top:60px;
+            right:75px;
+            z-index:1;
+        }
+        .navbox .box-1{
+            position: absolute;
+            background:transparent;
+            height:100px;
+            width:100px;
+            border:20px solid #E82C4F;
+            top:25px;
+            left: 33px;
+        }
+        .navbox .box-1 .box-2{
+            position: absolute;
+            background: transparent;
+            height:30px;
+            width:30px;
+            border:10px solid white;
+            top: 25px;
+            left:25px;
+        }
+        .navbox .box-2{
+            position: absolute;
+            background: transparent;
+            height:30px;
+            width:30px;
+            border:10px solid #3256A1;
+            bottom:20px;
+            left: 30px;
+        }
+        .navbox .circle{
+            position: absolute;
+            background: transparent;
+            height:30px;
+            width:30px;
+            border-radius: 30px;
+            outline: white solid 10px;
+            bottom:30px;
+            right: 40px;
+            
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <container>
+        <div class="background">
+            <div class="background-box">
+                <div class="background-box-1"></div>
+                <div class="background-box-2"></div>
+                <header>
+                    <div class="logo">
+                        <div class="box-1"></div>
+                        <div class="box-2">R</div>
+                        <div class="name"></div>
+                    </div>
+                    <article>
+                        <div class="logo-name">WARMUPS</div>
+                        <div class="content-1"></div>
+                        <div class="content-2">
+                            <p>LOREM IPSUM NEQUE PORRO </p> 
+                        </div>
+                    </article>
+                   
+                    <aside>
+                        <div class="icon"><i class="fa-solid fa-person fa-1x" style="color:#E82C4F"><i class="fa-solid fa-person-dress">&ThinSpace;</i></i>10 MAX</div>
+                        <div class="clock"><i class="fa-solid fa-clock" style="color: #ff3300;">&ThinSpace;</i>20MIN</div>
+                        <div class="navbox">
+                            <div class="box-1">
+                                <div class="box-2"></div>
+                            </div>
+                            <div class="box-2 "></div>
+                            <div class="circle"></div>
+                        </div>
+                    </aside>
+            
+                </header>
+            </div>
+        </div>
+    </container>
+    
+  
+</body>
+</html>

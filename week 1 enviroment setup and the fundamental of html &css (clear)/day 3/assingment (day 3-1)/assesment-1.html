@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nike</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            align-items:center;
+            justify-content:center;
+            background:black;
+
+        }
+        .container{
+            width: 1200px;
+            height:900px;
+            background: linear-gradient(to right, #434343 0%, black 100%);
+            border: 3px solid white;
+            border-radius:50px;
+            margin-left:50%;
+            margin-top:20px;
+            transform: translate(-50%);
+        }
+        /* header */
+        .box1{
+            position: none;
+            background: none;
+            width: 1200px;
+            height:100px;
+            margin-top:20px;
+        }
+        .divbox1{
+            position:relative;
+            background: none;
+            width:1160px;
+            height:100px;
+            margin-left:20px;
+        }
+        .logo{
+            position: absolute;
+            padding-top: 15px;
+        }
+        .navbar{
+            position:absolute;
+            background:none;
+            width:500px;
+            top:30px;
+            left:200px;
+            text-align:center;
+            justify-content: space-between;
+               
+        }
+        .navbar span a{
+            color:white;
+            outline:none;
+            text-decoration: none;
+        }
+        span{
+            background:none;
+            margin:10px;
+            font-size: 30px;
+            font-weight: bold ;
+            color:white;
+        }
+        .search-bar{
+            position:absolute;
+            background:transparent;
+            height:none;
+            right:200px;
+            top: 27px;
+            border-radius:30px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .search-bar:hover input{
+            width:130px;
+
+        }
+        .search-bar input{
+            background: transparent;
+            width:70px;
+            border: none;
+            outline:none;
+            padding:10px 10px;
+            transition:1.0s;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        ::placeholder{
+            color:white;
+        }
+        .button{
+            background:	#FF1493;
+            position: absolute;
+            width:150px;
+            right:10px;
+            top: 15px;
+            border-radius:20px;
+            padding: 20px 20px;
+            font-size: 20px;
+        }
+        /* section */
+        .sectionbox-1{
+            position:none;
+            background:none;
+            height:600px;
+            width:1200px;
+            
+        }
+        .section-box2{
+            position:relative;
+            height:400px;
+            width:950px;
+            background:none;
+            margin:0 auto;
+            display:flex;
+            justify-content: center;
+            top: 90px;
+            border-radius:450px;
+            outline: white solid 10px;
+            
+        }
+        .img-nike{
+            position: absolute;
+            top: 65px;
+            opacity: 0.3;
+        }
+        .content-1{
+            position:absolute;
+            background:none;
+            height:250px;
+            width:250px;
+            text-align:center;
+            top:75px;
+            left:100px;
+            font-size:200px;
+            color:white;
+            font-style:normal;
+        }
+       
+        .content-2{
+            position:absolute;
+            background:none;
+            height:250px;
+            width:250px;
+            text-align:center;
+            top:75px;
+            right:100px;
+            font-size:200px;
+            color:white;
+            font-style:normal;
+            z-index:1;
+        }
+        .content-3 img{
+            position:absolute;
+            left:140px;
+            top:-40px;
+            transform: rotate(-0deg);
+        }
+        .section-box3{
+            position: absolute;
+            background:none;
+            height: 200px;
+            width: 1200px;
+            bottom: 0px;
+            z-index:-1;
+        }
+        .section-box3 button{
+            background: #4729FF;
+            position: absolute;
+            height: 70px;
+            width:280px;
+            top:40px;
+            left: 50px;
+            border-radius:10px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            padding-left:40px;
+            padding-right:35px;
+            border:none;
+            color:white;
+            font-size:20px;
+        }
+        .section-box4{
+            position:absolute;
+            color:white;
+            right:60px;
+            top:5px;
+            height:200px;
+            width:280px
+
+        }
+       
+
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+        <header>
+            <div class="box1">
+                <div class="divbox1">
+                    <div class="logo"><img src="img/nike-3.png" height="80px"width="180px"></div>
+                    <div class="navbar">
+                        <span><a href="https://www.nike.com/my/men">MAN</a></span>
+                        <span><a href="https://www.nike.com/my/women">WOMEN</a></span>
+                        <span><a href="https://www.nike.com/my/kids">KID</a></span>
+                        <span><a href="https://www.nike.com/my/membership">EXPLORE</a></span>
+                        
+                    </div>
+                    <form actions="" class="search-bar">
+                        <span class="material-symbols-outlined">search</span> 
+                        <input type="text" placeholder="search">
+                    </form>
+                    <button class="button">Shop Now</button>
+                </div> 
+        </header>
+        <setion>
+            <div class="sectionbox-1">
+                <div class="divbox2">
+                    <div class="section-box2">
+                        <div class="img-nike"><img src="img/nike-4.png" height="300px" top="30px"></div>
+                        <div class="content-1">NI</div>
+                        <div class="content-2">KE</div>
+                        <div class="content-3">
+                            <img src="img/kasut-1.png"height="500px" width="550px">
+                        </div>
+                    </div>             
+                </div>
+                <div class="section-box3">
+                    <button><i class="fa-solid fa-bag-shopping fa-3x"></i>add to chart</button>
+                    <div class="section-box4">
+                        <h4>Ultra Mechanics</h4>
+                        <p>When a player steps in, a custom motor and gear train sense the tension needded by the foot</p>
+                    </div>
+                </div> 
+            </div>
+        </setion> 
+        s
+            
+        </div>
+    </main>
+  </div>
+
+        
+
+        
+    </nav>
+   </header>
+</body>
+</html>
