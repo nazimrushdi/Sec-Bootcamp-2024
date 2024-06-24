@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>learning box model</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      #parent > div {
+        border-color: black;
+        border-style: solid;
+        border-width: 1 px;
+      }
+      #parent-2 > span {
+        border-color: black;
+        border-style: solid;
+        border-width: 1 px;
+        display: inline-block;
+      }
+      #span-1 {
+        padding: 20px;
+      }
+      #span-2 {
+        margin: 60px;
+        width: 100px;
+        padding: 20px;
+      }
+      #span-3 {
+        width: 100px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>box model-1</h1>
+    <div id="parent">
+      <div id="box-1">1</div>
+      <div id="box-2">2</div>
+      <div id="box-3">3</div>
+    </div>
+    <h1>box model-2</h1>
+
+    <div id="parent-2">
+      <span id="span-1">hello</span>
+      <span id="span-2">world</span>
+      <span id="span-3">technology</span>
+    </div>
+  </body>
+</html>
